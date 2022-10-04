@@ -1,0 +1,11 @@
+.LogInContent {
+    object-fit: fill !important;
+    display: block;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    width: auto !important;
+    text-align: center !important;
+
+    padding: 5% !important;
+}
+

@@ -1,0 +1,106 @@
+.DoubleButton {
+  display: block;
+  margin-left: auto!important;
+  margin-right: auto !important;
+  width: 30% !important;
+  text-align: center!important;
+
+  padding: 5%!important;
+}
+
+.logRegPageContent {
+  background-color: #83d194;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+@media screen and (max-width: 2500px) {
+  .DoubleButton {
+
+    width: 20% !important;
+
+  }
+}
+
+@media screen and (max-width: 1305px) {
+  .DoubleButton {
+
+    width: 25% !important;
+
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .DoubleButton {
+
+    width: 30% !important;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .DoubleButton {
+
+    width: 30% !important;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .DoubleButton {
+
+    width: 40% !important;
+
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .DoubleButton {
+    display: inline-block !important;
+   
+    
+    
+    padding: 5%!important;
+  }
+
+  .DoubleButton.button {
+    padding: 5px;
+  }
+
+
+  .logRegPageContent {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
+
+@media screen and (max-width: 359px) {
+
+
+
+  .logRegPageContent {
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+}
+
+@media screen and (max-width: 359px) {
+
+
+
+  .RegButton{
+    margin-top: 5px !important;
+  }
+}
